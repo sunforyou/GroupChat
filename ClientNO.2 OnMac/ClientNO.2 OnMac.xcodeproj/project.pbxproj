@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A433B83F1D165C4D000C9A0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A433B83E1D165C4D000C9A0F /* AppDelegate.m */; };
+		A433B8421D165C4D000C9A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A433B8411D165C4D000C9A0F /* main.m */; };
+		A433B8471D165C4D000C9A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A433B8461D165C4D000C9A0F /* Assets.xcassets */; };
+		A433B8531D165C6C000C9A0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A433B8521D165C6C000C9A0F /* ViewController.m */; };
+		A433B8561D165C82000C9A0F /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A433B8551D165C82000C9A0F /* GCDAsyncSocket.m */; };
+		A433B8591D165CA1000C9A0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A433B8581D165CA1000C9A0F /* Main.storyboard */; };
+		A4D6D8641D28F03100B50474 /* FetchIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D6D8631D28F03100B50474 /* FetchIPAddress.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A433B83A1D165C4D000C9A0F /* ClientNO.2 OnMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ClientNO.2 OnMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A433B83D1D165C4D000C9A0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A433B83E1D165C4D000C9A0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A433B8411D165C4D000C9A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A433B8461D165C4D000C9A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A433B84B1D165C4D000C9A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A433B8511D165C6C000C9A0F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A433B8521D165C6C000C9A0F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A433B8541D165C82000C9A0F /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A433B8551D165C82000C9A0F /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A433B8581D165CA1000C9A0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A4D6D8621D28F03100B50474 /* FetchIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchIPAddress.h; sourceTree = "<group>"; };
+		A4D6D8631D28F03100B50474 /* FetchIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchIPAddress.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A433B8371D165C4D000C9A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A433B8311D165C4D000C9A0F = {
+			isa = PBXGroup;
+			children = (
+				A433B83C1D165C4D000C9A0F /* ClientNO.2 OnMac */,
+				A433B83B1D165C4D000C9A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A433B83B1D165C4D000C9A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A433B83A1D165C4D000C9A0F /* ClientNO.2 OnMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A433B83C1D165C4D000C9A0F /* ClientNO.2 OnMac */ = {
+			isa = PBXGroup;
+			children = (
+				A433B8571D165C86000C9A0F /* GCD */,
+				A433B83D1D165C4D000C9A0F /* AppDelegate.h */,
+				A433B83E1D165C4D000C9A0F /* AppDelegate.m */,
+				A4D6D8651D28F03600B50474 /* FetchIPAddress */,
+				A433B8511D165C6C000C9A0F /* ViewController.h */,
+				A433B8521D165C6C000C9A0F /* ViewController.m */,
+				A433B8581D165CA1000C9A0F /* Main.storyboard */,
+				A433B8461D165C4D000C9A0F /* Assets.xcassets */,
+				A433B84B1D165C4D000C9A0F /* Info.plist */,
+				A433B8401D165C4D000C9A0F /* Supporting Files */,
+			);
+			path = "ClientNO.2 OnMac";
+			sourceTree = "<group>";
+		};
+		A433B8401D165C4D000C9A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A433B8411D165C4D000C9A0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A433B8571D165C86000C9A0F /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				A433B8541D165C82000C9A0F /* GCDAsyncSocket.h */,
+				A433B8551D165C82000C9A0F /* GCDAsyncSocket.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
+		A4D6D8651D28F03600B50474 /* FetchIPAddress */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6D8621D28F03100B50474 /* FetchIPAddress.h */,
+				A4D6D8631D28F03100B50474 /* FetchIPAddress.m */,
+			);
+			name = FetchIPAddress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A433B8391D165C4D000C9A0F /* ClientNO.2 OnMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A433B84E1D165C4D000C9A0F /* Build configuration list for PBXNativeTarget "ClientNO.2 OnMac" */;
+			buildPhases = (
+				A433B8361D165C4D000C9A0F /* Sources */,
+				A433B8371D165C4D000C9A0F /* Frameworks */,
+				A433B8381D165C4D000C9A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClientNO.2 OnMac";
+			productName = "ClientNO.2 OnMac";
+			productReference = A433B83A1D165C4D000C9A0F /* ClientNO.2 OnMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A433B8321D165C4D000C9A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sky;
+				TargetAttributes = {
+					A433B8391D165C4D000C9A0F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A433B8351D165C4D000C9A0F /* Build configuration list for PBXProject "ClientNO.2 OnMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A433B8311D165C4D000C9A0F;
+			productRefGroup = A433B83B1D165C4D000C9A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A433B8391D165C4D000C9A0F /* ClientNO.2 OnMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A433B8381D165C4D000C9A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A433B8471D165C4D000C9A0F /* Assets.xcassets in Resources */,
+				A433B8591D165CA1000C9A0F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A433B8361D165C4D000C9A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A433B8561D165C82000C9A0F /* GCDAsyncSocket.m in Sources */,
+				A433B8531D165C6C000C9A0F /* ViewController.m in Sources */,
+				A433B8421D165C4D000C9A0F /* main.m in Sources */,
+				A4D6D8641D28F03100B50474 /* FetchIPAddress.m in Sources */,
+				A433B83F1D165C4D000C9A0F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A433B84C1D165C4D000C9A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A433B84D1D165C4D000C9A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A433B84F1D165C4D000C9A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ClientNO.2 OnMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.ClientNO-2-OnMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A433B8501D165C4D000C9A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ClientNO.2 OnMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sky.ClientNO-2-OnMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A433B8351D165C4D000C9A0F /* Build configuration list for PBXProject "ClientNO.2 OnMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A433B84C1D165C4D000C9A0F /* Debug */,
+				A433B84D1D165C4D000C9A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A433B84E1D165C4D000C9A0F /* Build configuration list for PBXNativeTarget "ClientNO.2 OnMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A433B84F1D165C4D000C9A0F /* Debug */,
+				A433B8501D165C4D000C9A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A433B8321D165C4D000C9A0F /* Project object */;
+}
